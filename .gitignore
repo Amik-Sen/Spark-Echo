@@ -28,3 +28,39 @@ replay_pid*
 
 # Ignore Gradle build output directory
 build
+
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+hs_err_pid*
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
