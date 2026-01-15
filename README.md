@@ -59,7 +59,7 @@ minispark/
   - Transformations vs Actions
   - Laziness
 
-- Your implementation
+- Implementation
   - `RDD<T>`
   - `map`, `filter`, `flatMap`
   - `collect`, `count`
@@ -70,7 +70,7 @@ minispark/
   - Partitions
   - Parallel execution
 
-- Your implementation
+- Implementation
   - Each RDD has `List<Partition>`
   - Partition = slice of data
   - Tasks = (RDD, partition)
@@ -82,7 +82,7 @@ minispark/
   - Wide vs narrow transformations
   - Shuffle boundaries
 
-- Your implementation
+- Implementation
   - `reduceByKey`
   - Detect wide dependency
   - Break DAG into stages
@@ -95,7 +95,7 @@ minispark/
   - Fault tolerance
   - Lineage graph
 
-- Your implementation
+- Implementation
   - `cache()` flag on RDD
   - Lineage DAG
   - Kill a task → recompute from parents
@@ -106,7 +106,7 @@ minispark/
   - Task retries
   - Simple scheduling policies
 
-- Your implementation
+- Implementation
   - Retry failed task
   - Log stage/task execution
   - Simple FIFO scheduler
@@ -118,7 +118,7 @@ minispark/
   - Wide vs narrow transformations
   - Shuffle boundaries
 
-- Your implementation
+- Implementation
   - `reduceByKey`
   - Detect wide dependency
   - Break DAG into stages
@@ -132,7 +132,7 @@ minispark/
   - Same DAG, same scheduler, repeated over time
   - Fault tolerance via replay + lineage
 
-- Your implementation
+- Implementation
   - `StreamingContext`
   - DStream abstraction
   - Supported operations
